@@ -1,0 +1,577 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Symbi Email</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f6f9fc;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+
+      @media screen and (max-width: 600px) {
+      }
+      @media screen and (max-width: 400px) {
+      }
+
+      .wrapper {
+        width: 100%;
+        background-color: #f6f9fc;
+        font-family: sans-serif;
+        padding:10%;
+      }
+      .webkit {
+        max-width: 650px;
+        background-color: #ffffff;
+      }
+      .outer {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 750px;
+        border-spacing: 10;
+      }
+      .btech {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      .program_name {
+        font-size: x-small;
+      }
+      .students_per_batch {
+        font-size: xx-small;
+      }
+
+      .program_image {
+        width: auto;
+      }
+      .cs {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid bo
+        
+        rder */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .aiml {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      
+       .rna {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .entc {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 4px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .mech {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .civil {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+
+      .mtech {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      .rna {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .embedded {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .aiml {
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 10px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+        width: 115px;
+        height: 180px;
+      }
+      .publication_list {
+        justify-content: center;
+      }
+      .footer {
+        display: flex;
+        justify-content: center;
+    display: flex; /* Enable flexbox */
+        align-items: center; /* Center vertically */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Add a 1px solid border */
+        border-radius: 8px; /* Add 8px rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation */
+        padding: 5px; /* Add some padding */
+        background-color: #fff; /* Add a background color */
+       
+      }
+      .sender_image {
+        padding-right: 30px;
+      }
+    .sender_details{
+    text-align: left;
+    font-size: smaller;
+    }
+    .infographics{
+      justify-content: center;
+      text-align: center;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="webkit">
+        <div>
+          <table class="outer">
+            <tr>
+              <p>Dear [company],</p>
+            </tr>
+
+            <tr>
+              <p>
+                Greetings from Symbiosis Institute of Technology, Lavale, Pune!
+                I am Dr. Nilisha Itankar. As the Placement Cell Head of
+                Symbiosis Institute of Technology, I would like to express our
+                keen interest in inviting your company to our campus for the
+                ongoing placement drive of the students of our highly
+                industry-centric BTech & MTech Program. Please find below the
+                details of our institute for your perusal.
+              </p>
+            </tr>
+
+            <tr>
+              <p>
+                Symbiosis Institute of Technology, a constituent of Symbiosis
+                International University was established in the year 2008 and
+                currently offers:
+              </p>
+            </tr>
+            <tr class="infographics">
+              <p>
+                <b><center>B. Tech programmes</center></b>
+              </p>
+              <div class="btech with tables">
+                <table>
+                  <tr>
+                    <td>
+                      <div class="cs">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/img924/2466/88zYLC.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Computer Science and Engineering</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="it">
+                        <div class="linked_part">
+                          <a href=https://www.sitpune.edu.in/notice-attendance">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/img924/1597/Q8fHBU.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Artificial Intellgence and machine learning</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="aiml">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/v2/100x75q70/922/9D5D8i.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Electronics & Telecommunication Engineering</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="mech">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/img923/7075/MVeNnW.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Robtics and automation</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="mech">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://drive.google.com/file/d/1MDbYbZkYYHJxLzxDA8fTuvMe-bI0dTyi/view?usp=sharing"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Mechanical Engineering</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="civil">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/img924/8319/EfWMHv.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>
+                                Civil <br />
+                                Engineering
+                              </p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                           </div>
+            </tr>
+
+            <tr class="infographics">
+              <p>
+                <b><center>M. Tech programmes</center></b>
+              </p>
+              <div class="mtech">
+                <table>
+                  <tr>
+                    <td>
+                      <div class="rna">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/img923/7096/WjJjie.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Robotics and automation</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="embedded">
+                      
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://drive.google.com/file/d/1MDbYbZkYYHJxLzxDA8fTuvMe-bI0dTyi/view?usp=sharing"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>Embedded Systems Engineering</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="aiml">
+                        <div class="linked_part">
+                          <a href="https://www.sitpune.edu.in/">
+                            <div class="program_image">
+                              <img
+                                src="https://imagizer.imageshack.com/img922/7472/aIpE4n.png"
+                                width="90"
+                                height="100"
+                              />
+                            </div>
+
+                            <div class="program_name">
+                              <p>AI/ML</p>
+                            </div>
+                          </a>
+                          <div class="students_per_batch">
+                            <p>___students per batch</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </tr>
+
+            <tr>
+              <p>
+                Research programmes leading to Ph. D. Degree was introduced in
+                the Faculty of Engineering of Symbiosis International University
+                in 2010.
+              </p>
+            </tr>
+
+            <tr>
+              <p>
+                Cohorts of the above mentioned programs have gone out to be a
+                part of the success of ____ organizations over the past decade,
+                which is why we are excited to discuss the placement of the
+                current cohort that includes
+              </p>
+
+              <div>
+                <p>infographic for placement groups</p>
+              </div>
+            </tr>
+
+            <tr>
+              <p>
+                A key feature of our program is that the BTech students
+                undertake
+                <b
+                  >5 months of internships in their final semester (8th
+                  semester)</b
+                >
+                and the MTech students undertake
+                <b
+                  >11 months of internship during their final year (3rd and 4th
+                  semester)</b
+                >, combine this with our highly industry-driven academic program
+                and you can be sure to have an extremely job-ready cohort of
+                students.
+              </p>
+              <p>
+                In addition to their curriculum, many students take up external
+                endeavours to gain diverse skill sets. Many BTech students
+                pursue the highly sought-after
+                <b>Diploma in Business Management from SIBM</b> Pune which gives
+                them a basic understanding of Management Skills. We also offer
+                <b>Specializations in various domains</b> in addition to the
+                curriculum which is why it comes as no surprise that our
+                institution is a part of <b>40 patents</b> and our faculty are actively
+                involved in research activity leading to
+              </p>
+            </tr>
+
+            <tr>
+              <div class="publication_list">
+                <ul>
+                  <li>812 SCOPUS publications</li>
+                  <li>361 WoS journal publications</li>
+                  <li>
+                    297 publications in the journals confirmed and validated by
+                    UGC-CARE.
+                  </li>
+                </ul>
+              </div>
+            </tr>
+
+            <tr>
+              <p>
+                We hope that you will accept our invitation and provide us with
+                the opportunity to showcase our students' potential to your
+                organization. Please let us know if you require any further
+                information or have any queries regarding the recruitment drive.
+              </p>
+
+              <p>
+                We will be happy to provide you more information, should you
+                need it. Visit:
+                <a href="http://www.sitpune.edu.in/">www.sitpune.edu.in</a> &
+                <a href="http://www.siu.edu.in/">www.siu.edu.in</a>
+              </p>
+            </tr>
+
+            <tr>
+              <div class="footer">
+                <div class="sender_image">
+                  <img src="your-image-url" alt="Your Image" />
+                </div>
+                <div class="sender_details">
+                  <p>
+                    <b>Dr. Nilisha Itankar</b><br />
+                    Head of Placements <br />
+                    Symbiosis Institute of Technology<br />
+                    Symbiosis International (Deemed University)<br />
+                    Direct No.: 020 2811 6300 Extn: 6442 <br />
+                    M: 9860147596<br />
+                  </p>
+                </div>
+              </div>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
